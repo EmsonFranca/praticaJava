@@ -28,7 +28,7 @@ public class Carro {
     }
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
+        
         return "Número da Placa: "+placa+"\nDados da pessoa: "+p+".";
     }
 
