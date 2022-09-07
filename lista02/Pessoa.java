@@ -1,16 +1,19 @@
 package lista02;
 
 public class Pessoa {
-    String nome;
-    int apt;
-    public Pessoa(String nome, int apt) {
-        this.nome = nome;
-        this.apt = apt;
-    }
+    private String nome;
+    private int apt;
+
     public Pessoa() {
         this.nome = "-";
         this.apt = 0;
     }
+
+    public Pessoa(String nome, int apt) {
+        this.nome = nome;
+        this.apt = apt;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -28,7 +31,7 @@ public class Pessoa {
      */
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
-        return ("\nNome: "+nome+"\nApartamento: "+apt+".");
+        
+        return "\nNome: "+this.nome+"\nApartamento: "+this.apt+".";
     }
 }

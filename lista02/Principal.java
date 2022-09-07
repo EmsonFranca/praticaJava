@@ -20,6 +20,9 @@ public class Principal {
          * argumento a função de leitura lendo 
          * um tipo de inteiro e armazenando no
          * atributo da função.
+         * public void setApt(int apt) {
+         *      this.apt = apt;
+         *  }
          */
         p.setApt(sc.nextInt());
         
