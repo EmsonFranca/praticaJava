@@ -1,8 +1,8 @@
 package lista02;
 
 public class Carro {
-    String placa;
-    Pessoa p;
+    private String placa;
+    private Pessoa p;
 
     public Carro(){
         this.placa = "-";
@@ -29,7 +29,7 @@ public class Carro {
     @Override
     public String toString() {
         
-        return "Número da Placa: "+placa+"\nDados da pessoa: "+p+".";
+        return "\nNúmero da Placa: "+placa+"\nDados da pessoa: "+p+".";
     }
 
 
